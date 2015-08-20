@@ -1,4 +1,8 @@
 require "cuba"  #First, you load the Cuba gem to access its functionality.
+require "mote"
+require "mote/render"
+
+Cuba.plugin(Mote::Render)
 
 Cuba.define do  #define => allows us to create an application through a block
   on root do   #on => executes a given block if the passed conditions evaluate to true.
