@@ -12,4 +12,5 @@ rackup config.ru
 #Mote
 Mote is a fast template engine that allows us to put ruby code into any plain text document like HTML.
 
-###Template Engines### are
+###Template Engines
+ are
